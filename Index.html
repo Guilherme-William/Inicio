@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Amazonas FC 🐆</title>
+    <style>
+        body {
+            background-color: black;
+            background-image: url('https://escudosfc.com.br/images/amazonas_fc_am.png'); /* Imagem de Fundo*/
+            background-size: 400px; 
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            color: #ff0;
+            margin: 0; 
+        }
+        h1, h2 {
+            color: white;
+        }
+        p {
+            color: white; /* Cor do Texto Trasmissão e Historia do Clube */
+        }
+        a {
+            text-decoration: none;
+        }
+        nav {
+            background-color: white;
+            padding: 20px;
+            display: none; /* CSS Barra do Menu */
+        }
+        nav a {
+            color: #000;
+            margin-right: 20px;
+            float: left; /* Opções da Barra de Menu*/
+        }
+        #menu-icon {
+            color: #ff0;
+            font-size: 30px;
+            cursor: pointer;
+            margin-top: 0px; /* Move o ícone para baixo */
+            float: left; /* CSS do Icone Amarelo do Menu*/
+        }
+        /* Oculta os elementos quando o menu não estiver visível */
+        .hidden {
+            display: none;
+        }
+        /* Estilo adicional para a tabela */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ff0; /* Cor da Borda Escalações provaveis */
+        }
+        th, td {
+            color: white; /* Cor do Texto Escalações Provaveis */
+            padding: 8px;
+            text-align: left;
+        }
+        
+        th div {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        /* Adicione os estilos para centralizar a imagem */
+        #historia-content img {
+            display: block;
+            margin: auto;
+        }
+        #pre-jogo-content {
+            background-color: #111;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        #escalacoes-content {
+            background-color: #111;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        #resultados-content {
+            background-color: #111;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        #transmissao-content {
+            background-color: #111;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        #historia-content {
+            background-color: #111;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        
+        #conteudo-principal {
+            display: flex; /* Adicione espaço ao conteúdo principal para evitar que seja coberto pelo rodapé */
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        #Hino-content {
+            background-color: #111;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        
+        #rodape {
+            flex: 1 1 0;
+            background-color: white;
+            color: white;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            height: 50px; /* tamahno da barra */
+            bottom: 0;
+            z-index: 1;
+        }
+
+        #rodape img {
+            width: 100px; /* Defina uma largura menor para as imagens do rodapé */
+            height: 50px; /* Defina uma altura menor para as imagens do rodapé */
+            margin: 0 10px;
+        }
+        .loja-item {
+            display: inline-block;
+            margin-right: 20px; /* Imagens dos Uniformes da Loja */
+        }
+/* --------------------------------------- CSS ----------------------------------------------------- */    
+    </style>
+</head>
+<body>
+
+    <header onclick="goToHome" style="text-align: center;">
+        <span id="menu-icon" style="color: #ff0 ; font-size: 30px; cursor: pointer; margin-top: 10px; float: left; clear: both;">☰</span> <!-- Ícone de menu (três barras) -->
+        <h1> <a onclick="goToHome()" style="font-size: 40px; color: white; font-weight: bold; cursor: pointer;">Amazonas FC</a></h1>
+    </header>
+    
+    
+
+    <nav>
+        <a href="javascript:void(0);" onclick="showContent('pre-jogo')">Pré-Jogo</a>
+        <a href="javascript:void(0);" onclick="showContent('escalacoes')">Escalações Prováveis</a>
+        <a href="javascript:void(0);" onclick="showContent('resultados')">Últimos Resultados</a>
+        <a href="javascript:void(0);" onclick="showContent('transmissao')">Transmissão</a>
+        <a href="javascript:void(0);" onclick="showContent('historia')">História do Clube</a>
+        <a href="javascript:void(0);" onclick="showContent('Loja')">Loja</a>
+        <a href="https://ge.globo.com/am/futebol/times/amazonas-fc/" target="_blank">Resultados ao Vivo</a>
+        <a href="javascript:void(0);" onclick="showContent('Hino')">Hino</a>
+    </nav>
+
+    <h2 id="pre-jogo" class="hidden" style="color: white;">Pré-Jogo</h2>
+<div id="pre-jogo-content" class="hidden">
+    <img src="https://s2-g1.glbimg.com/oaW_Rgkk0VZYG49GdUoZK7coEsU=/0x0:2560x1621/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/8/F/xA3b70QIqAWHLYDhuVaw/arena-amazonia-grandes-eventos-augustto-albuquerque-fabrica-eventos.jpg" alt="Amazonas FC" style="display: block; margin: 0 auto; max-width: 100%; height: 300px;">
+    <p style="color: white;">O jogo entre o Amazonas FC e o Botafogo PB promete ser um duelo emocionante e cheio de expectativas. Ambas as equipes têm suas próprias histórias e legados no futebol brasileiro, e esse confronto representa uma oportunidade para os fãs de ambas as partes testemunharem o talento e a paixão pelo esporte.
+
+        O Amazonas FC, sediado em Manaus, capital do estado do Amazonas, tem sido uma equipe que vem buscando consolidar seu espaço no cenário do futebol brasileiro. Com um comprometimento crescente com o desenvolvimento do esporte na região amazônica, o clube demonstrou um notável crescimento em termos de infraestrutura e captação de talentos locais. O time tem se esforçado para representar a região com dignidade e orgulho, atraindo torcedores locais e aumentando seu alcance.
+        
+        Por outro lado, o Botafogo PB, uma das equipes tradicionais da Paraíba, tem uma história rica no futebol nordestino. O clube já conquistou títulos estaduais e participou de competições nacionais, contribuindo para a paixão pelo esporte na região. A equipe possui uma base de torcedores fiel e apaixonada, que sempre está presente para apoiar o time, seja qual for o desafio.
+    </p>
+</div>
+
+    
+
+    <h2 id="escalacoes" class="hidden">Escalações Prováveis</h2>
+    <div id="escalacoes-content" class="hidden">
+        <table>
+            <tr>
+                <th>Amazonas FC</th>
+                <th>Botafogo PB</th>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Goleiros:</strong>
+                        <br>1 - Edson Mardden<br>
+                    <strong>Defesas:</strong>
+                        <br>4 - Jackson
+                        <br>6 - Renan
+                        <br>3 - Thiago Spice<br>
+                    <strong>Meio-Campista:</strong>
+                        <br>55 - PH
+                        <br>10 - Rafael Tavares
+                        <br>11 - Diego Torres
+                        <br>8 - Italo<br>
+                    <strong>Atacantes:</strong>
+                        <br>9 - Sassá
+                        <br>7 - Igor Bolt
+                        <br>12 - Lucas Santos
+                        <br> 
+                </td>
+                <td>
+                    <strong>Goleiros:</strong>
+                    <br>1 - Gustavo Gomes da Silva<br>
+                    <strong>Defesas:</strong><br>
+                    2 - Lucas Mendes<br>
+                    3 - Wesley Matos<br>
+                    25 - Pedro Henrique<br>
+                    33 - Tenório<br>
+                    <strong>Meio-Campista:</strong><br>
+                    19 - Marco Antonio<br>
+                    8 - Wesley<br>
+                    27 - Vitinho<br>
+                    <strong>Atacantes:</strong><br>
+                    7 - Mateus Anderson<br>
+                    9 - Pipico<br>
+                    29 - Radsley<br>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <h2 id="resultados" class="hidden">Últimos Resultados</h2>
+    <div id="resultados-content" class="hidden">
+        <table>
+            <tr>
+                <th>Amazonas FC<div>A recente vitória do Amazonas FC sobre o Paysandu, conquistada fora de casa, não é apenas uma conquista esportiva, mas um triunfo que ressoa profundamente na história e no coração de seus jogadores e torcedores. Esta vitória brilhante é um testemunho do comprometimento, habilidade e paixão que permeiam o clube.</div></th>
+                
+                <th>Botafogo PB<div>Enquanto a importância do Botafogo da Paraíba (Botafogo PB) vencer o próximo jogo contra o Amazonas FC é indiscutível, especialmente após a recente derrota contra o Volta Redonda. Essa partida se torna uma oportunidade crucial para a equipe se recuperar e demonstrar sua resiliência no Campeonato.</div></th>
+            </tr>
+        </table>
+    </div>
+    <h2 id="transmissao" class="hidden">Transmissão</h2>
+    <p id="transmissao-content" class="hidden">A partida será transmitida ao vivo na DAZN. Não perca!
+    <a href="https://www.youtube.com/watch?v=aCev3HPdrT0" target="_blank" style="color:yellow">Transmissão🐆</a></p>
+
+    <h2 id="Loja" class="hidden">Loja</h2>
+    <div id="Loja-content" class="hidden">
+        <div style="display: flex; justify-content: space-around;">
+            <div>
+                <a href="https://www.tvlar.com.br/camisa%20amazonas?_q=camisa%20amazonas&map=ft" target="_blank">
+                <br><img src="https://tvlar.vtexassets.com/arquivos/ids/19909414-1600-auto?v=638242653628370000&width=1600&height=auto&aspect=true" alt="UNIFORME A" style="max-width: 100%; height: 300px;">
+                <p style="color: white; text-align: center;">UNIFORME A</p></a>
+            </div>
+            <div>
+                <a href="https://www.tvlar.com.br/camisa%20amazonas?_q=camisa%20amazonas&map=ft" target="_blank">
+                <br><img src="https://tvlar.vtexassets.com/arquivos/ids/19909422-1600-auto?v=638242707183870000&width=1600&height=auto&aspect=true" alt="UNIFORME B" style="max-width: 100%; height: 300px;">
+                <p style="color: white; text-align: center;">UNIFORME B</p></a>
+            </div>
+        </div>
+         <a href="https://www.tvlar.com.br/" target="_blank" style="color: white;display: block; text-align: center; margin-top: 200px;">© Site Oficial: TV LAR</a>
+    </div>
+    
+
+    <h2 id="historia" class="hidden">História do Clube</h2>
+    <div id="historia-content" class="hidden">
+        <br><img src="https://pitaco-stan.s3.amazonaws.com/assets/images/ae703879d8/original.webp" alt="Amazonas FC" style="display: block; margin: 0 auto; max-width: 100%; height: 300px;">
+        <p>O Amazonas teria sido idealizado por volta de 2017, dois anos antes de sua fundação, período em que foi planejado, até sua fundação oficial em 23 de Maio de 2019. A ideia foi encabeçada por Wesley Couto, com a participação de pessoas como o então vereador de Manaus, Willian Abreu[1] e Roberto Peggy. Willian Abreu teve passagem como diretor de futebol no Rio Negro[2] e Roberto Peggy foi presidente do Nacional no biênio 2017-18, [3] fazendo valer assim a continuada história dos clubes jovens de Manaus que sempre tem entre seus fundadores integrantes de diretorias passadas de clubes tradicionais da capital. Além disso, os fundadores trouxeram para ser o primeiro diretor de futebol o ex-jogador Lecheva, que alternadamente esteve no clube de 2019 a 2021.[4]</p>
+        <p>Já na altura de sua fundação, o clube já apresentava-se estruturado com sede, alojamentos e local para treinos. Além disso, planejava a construção de seu próprio centro de treinamentos na Avenida Constantino Nery. Para aquele início audacioso, o clube planejava uma folha salarial modesta, de em torno de R$50 mil,[4] mas já fazendo ensaios de contratações audaciosas como a do jogador Juan.[5] O clube inicialmente teve uma política de investir em medalhões do futebol brasileiro, trazendo também nomes como Maikon Leite (em 2020),[6] Ibson[7] e Walter,[8] (em 2022) e a grande contratação do time Sassá [9] (em 2023).</p>
+    </div>
+    
+    <h2 id="Hino" class="hidden">Hino</h2>
+    <div id="Hino-content" class="hidden">
+        <p>Hino do Vascão</p>
+        <audio controls src="https://linkparadownload.com/wp-content/audiosparazap/hino_oficial_do_vasco_da_gama.mp3" >
+            Seu browser não suporta áudio.
+            </audio>
+    </div>
+       
+    
+    <div id="rodape" class="rodape">
+        <footer>
+            <img src="https://aca.org.br/wp-content/uploads/2022/10/image-removebg-preview-49.png" alt="TV LAR" style="width: 100px; height: 40px; margin-right: 10px;">
+            <img src="https://www.manaus.am.gov.br/wp-content/uploads/2023/01/logo-prefeitura-de-Manaus.png" alt="PREFEITURA DE MANAUS" style="width: 100px; height: 40px; margin-right: 20px;">
+            <img src="https://apstatic.prodam.am.gov.br/images/logo_governo/logo-gov-horizontal.png" alt="GOVERNO DO AMAZONAS" style="width: 100px; height: 40px;">
+            <img src="https://protteina.com.br/wp-content/uploads/2023/04/Logo-protteina.png" alt="PROTTEINA" style="width: 50px; height: 45px; margin-right: 20px;">
+            <img src="https://scontent.fpll7-1.fna.fbcdn.net/v/t39.30808-6/241716463_328550385692772_2539018191095499706_n.png?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Y0qDni6G9dAAX_1Somo&_nc_ht=scontent.fpll7-1.fna&oh=00_AfCCi4h3iVjY6PGy2M4OrUrreYQVuUccbjIZjtOjTxWxNQ&oe=6532DF2F" alt="POP VETS" style="width: 50px; height: 45px; margin-right: 20px;">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipPPZH0t4Gw2B41a2oiocQ5i1Xhz7wXWrID73DBj=w768-h768-n-o-v1" alt="NUTRIK REFEIÇÕES" style="width: 50px; height: 45px; margin-right: 20px;">
+            
+    </footer></div>
+    <script>
+        
+/* -------------------------------------------------------------------------------- JavaScript ----------------------------------------------------------- */
+        
+        document.getElementById("menu-icon").addEventListener("click", function() {
+            var nav = document.querySelector("nav");
+            if (nav.style.display === "block") {
+                nav.style.display = "none";
+            } else {
+                nav.style.display = "block";
+            }
+        });
+
+        function showContent(id) {
+            // Oculta todos os elementos de conteúdo
+            var contentElements = document.getElementsByClassName("hidden");
+            for (var i = 0; i < contentElements.length; i++) {
+                contentElements[i].style.display = "none";
+            }
+            // Exibe o elemento de conteúdo desejado
+            var content = document.getElementById(id + "-content");
+            if (content) {
+                content.style.display = "block";
+            }
+            // Exibe o conteúdo principal quando o link "Pré-Jogo" é selecionado
+            if (id === "pre-jogo") {
+                var conteudoPrincipal = document.getElementById("conteudo-principal");
+                if (conteudoPrincipal) {
+                    conteudoPrincipal.style.display = "block";
+                }
+            }
+        }
+        
+        function goToHome() {
+            window.location.href = "file:///C:/Users/aluno/Desktop/Site/Index.html";
+            location.reload();
+            var contentElements = document.getElementsByClassName("hidden");
+            for (var i = 0; i < contentElements.length; i++) {
+                contentElements[i].style.display = "none";
+            }
+            var conteudoPrincipal = document.getElementById("conteudo-principal");
+            if (conteudoPrincipal) {
+                conteudoPrincipal.style.display = "none";
+            }
+            var nav = document.querySelector("nav");
+            if (nav) {
+                nav.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

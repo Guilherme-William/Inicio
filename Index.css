@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+
+}
+
+body{
+    font-family: Arial;
+}
+
+ul{
+    list-style: nome;
+}
+
+body {
+    background-image: url('https://escudosfc.com.br/images/amazonas_fc_am.png');
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #000(255, 0, 0);
+}
+
+img{
+    width: 40px;
+}
+
+input[type="checkbox"]
+{
+    display:nome;
+}
+
+nav
+{
+    background-color: rgba(16,16,16,.5);
+    width: 350px;
+    height: 100%;
+}
+
+a{
+    background-color: red;
+    display: block;
+    padding: 20px 5px;
+    color: white;
+}
+
+a:houver{
+    background-color: rgb(176, 224, 230);
+}
