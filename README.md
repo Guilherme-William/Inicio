@@ -1,2 +1,2 @@
 # Comandos-git
-Comandos e o passo a passo de como subi os arquivos para a branch master
+Site que eu desenvolvir para o modulo de desenvolvimento WEB no curso Tecnico de Informática.
